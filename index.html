@@ -27,25 +27,26 @@
 
     </div>
     <div id="main_game">
+      <p id="chance_teller"></p>
       <div id="game">
         <div id="row1">
-          <div class="cell" id="cell1"></div>
-          <div class="cell" id="cell2"></div>
-          <div class="cell" id="cell3"></div>
+          <div class="cell" id="cell1" onclick="mychoice1()"></div>
+          <div class="cell" id="cell2" onclick="mychoice2()"></div>
+          <div class="cell" id="cell3" onclick="mychoice3()"></div>
         </div>
         <div id="row2"> 
-          <div class="cell" id="cell4"></div>
-          <div class="cell" id="cell5"></div>
-          <div class="cell" id="cell6"></div>
+          <div class="cell" id="cell4" onclick="mychoice4()"></div>
+          <div class="cell" id="cell5" onclick="mychoice5()"></div>
+          <div class="cell" id="cell6" onclick="mychoice6()"></div>
         </div>
         <div id="row3">
-          <div class="cell" id="cell7"></div>
-          <div class="cell" id="cell8"></div>
-          <div class="cell" id="cell9"></div>
+          <div class="cell" id="cell7" onclick="mychoice7()"></div>
+          <div class="cell" id="cell8" onclick="mychoice8()"></div>
+          <div class="cell" id="cell9" onclick="mychoice9()"></div>
       </div>
       <div id="result">
-        <p id="result_text">YOU WIN</p>
-        <button id="play_again">PLAY AGAIN</button>
+        <p id="result_text">---</p>
+        <button class="play"id="play" onclick="maingame()">PLAY</button>
 
     </div>
     
