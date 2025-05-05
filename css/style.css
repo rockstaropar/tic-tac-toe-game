@@ -37,7 +37,7 @@
   font-weight: bold;
   margin-top: 20px;
 }
-#my_score,#comp_score{
+#p1_score,#p2_score{
    border: 2px solid black;
    width: 50%;
    text-align: center;
@@ -131,4 +131,20 @@ button:active {
   padding: 10px;
   background-color: rgb(255, 193, 34);
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#chance_teller {
+  text-align: center;
+  font-size: 20px;
+  color: darkred;
+  font-weight: bold;
+ 
+  background-color: rgb(255, 193, 34);
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 20%;
+  height: 20px;
+  margin: auto;
+  margin-top: 20px;
 }
