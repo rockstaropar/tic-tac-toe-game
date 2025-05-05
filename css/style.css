@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(252, 214, 117);
+  }
+
+#heading{
+  text-align: center;
+  color: darkred;
+  font-size: 50px;
+  background-color: burlywood;
+}
+#scoreboard{
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  
+  background-color: rgb(255, 193, 34);
+  color: darkred;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+
+}
+#score {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  background-color: rgb(255, 193, 34);
+  color: darkred;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#my_score,#comp_score{
+   border: 2px solid black;
+   width: 50%;
+   text-align: center;
+   padding: 10px;
+   margin: 5px;
+  border-radius: 20px;
+}
+
+#row1,#row2,#row3{
+  display: flex; 
+  justify-content: space-around; 
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+}
+.cell {
+  display: flex; 
+  justify-content: center; 
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+.cell:hover {
+  background-color: rgb(189, 116, 5);
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+.cell:active {
+  transform: scale(1);
+  opacity: 0.8;
+  box-shadow: none;
+}
+#main_game{
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+#game{
+  width: 20%;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+#result{
+  text-align: center;
+  font-size: 30px;
+  color: darkred;
+  margin-top: 20px;
+}
+
+#play_again{
+  background-color: rgb(255, 193, 34);
+  color: darkred; 
+  font-size: 20px; 
+  font-weight: bold; 
+  border: 2px solid darkred; 
+  border-radius: 8px; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+}
+
+button:hover {
+  background-color: darkred; 
+  color: white; 
+  transform: scale(1.1); 
+}
+
+button:active {
+  transform: scale(1); 
+  opacity: 0.8; 
+}
+
+
