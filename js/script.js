@@ -318,14 +318,17 @@ function check(){
     if(ch==0 || ch==1){
         const ele2=document.getElementById("chance_teller");
         ele2.textContent="";
+        gamest=0;
     }
     if(ch==0){
         const ele3=document.getElementById("p1score");
         ele3.textContent=parseInt(ele3.textContent)+1;
+        return;
     }
     else if(ch==1){
         const ele3=document.getElementById("p2score");
         ele3.textContent=parseInt(ele3.textContent)+1;
+        return;
     }
     
     if(c1!=0 && c2!=0 && c3!=0 && c4!=0 && c5!=0 && c6!=0 && c7!=0 && c8!=0 && c9!=0){
